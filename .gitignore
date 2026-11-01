@@ -1,0 +1,51 @@
+# ---------- Visual Studio / .NET ----------
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+build/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# .NET build/test artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+TestResults/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# ---------- App secrets / local config ----------
+appsettings.DEV.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.key
+
+# ---------- Node / Next.js (ecomfrontend) ----------
+node_modules/
+.next/
+out/
+.pnp
+.pnp.js
+coverage/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+*.swp
