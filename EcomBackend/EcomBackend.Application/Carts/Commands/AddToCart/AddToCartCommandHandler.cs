@@ -65,7 +65,6 @@ public class AddToCartCommandHandler : IRequestHandler<AddToCartCommand, CartDto
       })
       .FirstAsync(cancellationToken);
 
-        //return await LoadDto(cart.Id, cancellationToken);
     }
 
 }
